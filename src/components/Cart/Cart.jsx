@@ -14,7 +14,7 @@ const Cart = () => {
                 {cart.map((item) => (
                     <li style={{ listStyle: 'none', marginBottom: '20px', marginLeft: '150px' }} key={item.id} className="d-flex align-items-center justify-content-between">
                         <div style={{ width: '300px', height: '300px', overflow: 'hidden', marginRight: '20px' }}>
-                            <img src={`../../src/assets/image/${item.imageId}`} alt={item.name} className="card-img-top" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`./images/${item.imageId}`} alt={item.name} className="card-img-top" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div style={{ marginRight: '150px' }}>
                             <h4>{item.title}</h4>

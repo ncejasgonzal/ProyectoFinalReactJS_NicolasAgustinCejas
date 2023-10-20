@@ -82,7 +82,7 @@ const Checkout = () => {
                         {cart.map((item) => (
                             <li className='col-md-3 card bg-dark text-white' style={{ listStyle: 'none' }} key={item.id}>
                                 <div style={{ width: '150px', height: '150px', overflow: 'hidden', marginLeft: '25%'  }}>
-                                    <img src={`../../src/assets/image/${item.imageId}`} alt={item.name} className="card-img-top" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                    <img src={`./images/${item.imageId}`} alt={item.name} className="card-img-top" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                 </div>
                                 <h4 className='text-center'>{item.title}</h4>
                                 <h4 className='text-center'>Cantidad: {item.quantity}</h4>

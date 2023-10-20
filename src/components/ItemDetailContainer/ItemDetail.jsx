@@ -24,7 +24,7 @@ const ItemDetail = ({ item, isLoading, addItem}) => {
                         <h3 className="card-text text-center">${item.price}</h3>
                         <p className="card-text text-center">{item.categoryId}</p>
                         <div className="d-flex justify-content-center align-items-center" style={{ maxHeight: '600px', maxWidth: '400px', overflow: 'hidden' }}>
-                            <img src={`../../src/assets/image/${item.imageId}`} alt={item.name} className="card-img-top" style={{ width: '100%', objectFit: 'contain' }} />
+                            <img src={`./images/${item.imageId}`} alt={item.name} className="card-img-top" style={{ width: '100%', objectFit: 'contain' }} />
                         </div>
                         <h5 className="card-text text-center">{item.description}</h5>
                         <h5 className="card-text text-center bg-danger"> STOCK: {item.stock} unidades</h5>

@@ -21,7 +21,7 @@ const ItemList = ({ items, isLoading }) => {
                             <Link to={`/item/${item.id}`} className="card-link" style={{ textDecoration: 'none' }}>
                                 <div className="card bg-dark text-white" style={{ maxWidth: '800px', margin: 'auto' }}>
                                     <div className="card-img-container" style={{ maxHeight: '300px', overflow: 'hidden' }}>
-                                        <img src={`../../src/assets/image/${item.imageId}`}  className="card-img-top" alt={item.title} style={{ width: '100%', objectFit: 'cover' }}  />
+                                        <img src={`./images/${item.imageId}`}  className="card-img-top" alt={item.title} style={{ width: '100%', objectFit: 'cover' }}  />
                                     </div >
                                     <div className="card-body bg-dark text-center">
                                         <h5 className="card-title " >{item.title}</h5>
