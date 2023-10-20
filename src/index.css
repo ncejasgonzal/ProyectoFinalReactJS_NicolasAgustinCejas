@@ -1,0 +1,14 @@
+* {
+  margin: 0.2rem;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: rgba(46, 45, 45, 0.363) ;
+}
+
+.Greeting{
+  height: 70vh;
+}
